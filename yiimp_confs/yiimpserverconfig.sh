@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-###########################################
-# Created by Dirty Harry for YiiMP use... #
-###########################################
+##########################################
+# Created by IdMineThat for YiiMP use... #
+##########################################
 
 source /etc/functions.sh
 source /etc/yiimpserver.conf
@@ -45,7 +45,7 @@ define('"'"'YIIMP_PUBLIC_BENCHMARK'"'"', false);
 define('"'"'YIIMP_FIAT_ALTERNATIVE'"'"', '"'"'USD'"'"'); // USD is main
 define('"'"'YAAMP_USE_NICEHASH_API'"'"', false);
 
-define('"'"'YAAMP_BTCADDRESS'"'"', '"'"'12Pt3vQhQpXvyzBd5qcoL17ouhNFyihyz5'"'"');
+define('"'"'YAAMP_BTCADDRESS'"'"', '"'"'1Lrwrm5iDPDLo4qkokxU37WvuuiY7k8sDD'"'"');
 
 define('"'"'YAAMP_SITE_URL'"'"', '"'"''"${DomainName}"''"'"');
 define('"'"'YAAMP_STRATUM_URL'"'"', '"'"''"${StratumURL}"''"'"'); // change if your stratum server is on a different host
@@ -157,7 +157,7 @@ define('"'"'YIIMP_PUBLIC_BENCHMARK'"'"', false);
 define('"'"'YIIMP_FIAT_ALTERNATIVE'"'"', '"'"'USD'"'"'); // USD is main
 define('"'"'YAAMP_USE_NICEHASH_API'"'"', false);
 
-define('"'"'YAAMP_BTCADDRESS'"'"', '"'"'12Pt3vQhQpXvyzBd5qcoL17ouhNFyihyz5'"'"');
+define('"'"'YAAMP_BTCADDRESS'"'"', '"'"'1Lrwrm5iDPDLo4qkokxU37WvuuiY7k8sDD'"'"');
 
 define('"'"'YAAMP_SITE_URL'"'"', '"'"''"${DomainName}"''"'"');
 define('"'"'YAAMP_STRATUM_URL'"'"', '"'"''"${StratumURL}"''"'"'); // change if your stratum server is on a different host
@@ -206,7 +206,7 @@ define('"'"'NICEHASH_DEPOSIT'"'"','"'"'3J9tapPoFCtouAZH7Th8HAPsD8aoykEHzk'"'"');
 define('"'"'NICEHASH_DEPOSIT_AMOUNT'"'"','"'"'0.01'"'"');
 
 $cold_wallet_table = array(
-'"'"'12Pt3vQhQpXvyzBd5qcoL17ouhNFyihyz5'"'"' => 0.10,
+'"'"'1Lrwrm5iDPDLo4qkokxU37WvuuiY7k8sDD'"'"' => 0.10,
 );
 
 // Sample fixed pool fees
