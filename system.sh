@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-###########################################
-# Created by Dirty Harry for YiiMP use... #
-###########################################
+##########################################
+# Created by IdMineThat for YiiMP use... #
+##########################################
 
 clear
 source /etc/functions.sh
@@ -178,7 +178,7 @@ fi
 
 echo -e "$GREEN Done...$COL_RESET"
 
-echo -e " Downloading Dirty Harry YiiMP Repo...$COL_RESET"
+echo -e " Downloading IdMineThat YiiMP Repo...$COL_RESET"
 hide_output sudo git clone ${YiiMPRepo} $STORAGE_ROOT/yiimp/yiimp_setup/yiimp
 if [[ ("$CoinPort" == "yes") ]]; then
 	cd $STORAGE_ROOT/yiimp/yiimp_setup/yiimp
@@ -188,17 +188,17 @@ fi
 
 echo -e " Downloading Low Difficulty Stratum...$COL_RESET"
 cd $STORAGE_ROOT/yiimp/yiimp_setup/yiimp
-hide_output sudo git clone https://github.com/DirtyHarryDev/stratum-lowdiff.git
+hide_output sudo git clone https://github.com/IdMineThat/stratum-lowdiff.git
 sleep 2s
 
 echo -e " Downloading Full Stratum...$COL_RESET"
 cd $STORAGE_ROOT/yiimp/yiimp_setup/yiimp
-hide_output sudo git clone https://github.com/DirtyHarryDev/stratum-full.git
+hide_output sudo git clone https://github.com/IdMineThat/stratum-full.git
 sleep 2s
 
 echo -e " Downloading Zentoshi Stratum...$COL_RESET"
 cd $STORAGE_ROOT/yiimp/yiimp_setup/yiimp
-hide_output sudo git clone https://github.com/DirtyHarryDev/stratum-zenx.git
+hide_output sudo git clone https://github.com/IdMineThat/stratum-zenx.git
 sleep 2s
 
 echo -e "$GREEN System files installed...$COL_RESET"
