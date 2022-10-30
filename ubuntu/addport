@@ -109,7 +109,7 @@ fi
 # New coin stratum start file
 
 echo '###########################################
-# Updated by Dirty Harry for Yiimp use... #
+# Updated by IdMineThat for Yiimp use... #
 ###########################################
 
 source /etc/yiimpserver.conf
