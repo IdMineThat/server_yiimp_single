@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-###########################################
-# Created by Dirty Harry for YiiMP use... #
-###########################################
+##########################################
+# Created by IdMineThat for YiiMP use... #
+##########################################
 
 source /etc/functions.sh
 source $STORAGE_ROOT/yiimp/.yiimp.conf
@@ -32,7 +32,7 @@ else
 source $STORAGE_ROOT/yiimp/first_boot.sh
 fi
 ########################################
-# Author: Dirty Harry                  #
+# Author: IdMineThat                   #
 #                                      #
 # Program: yiimp screen startup script #
 #                                      #
@@ -52,7 +52,7 @@ echo -e " Creating Stratum screens start script...$COL_RESET"
 
 echo '#!/usr/bin/env bash
 ########################################
-# Author: Dirty Harry                  #
+# Author: IdMineThat                   #
 #                                      #
 # Program: yiimp screen startup script #
 #                                      #
