@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-###########################################
-# Created by Dirty Harry for YiiMP use... #
-###########################################
+##########################################
+# Created by IdMineThat for YiiMP use... #
+##########################################
 
 source /etc/functions.sh
 source /etc/yiimpserver.conf
@@ -75,8 +75,8 @@ echo -e "$GREEN Done...$COL_RESET"
 
 cd $HOME/yiimpserver/yiimp_single
 
-#Updating YiiMP files for Dirty Harry build
-echo -e " Adding the Dirty Harry flare to YiiMP...$COL_RESET"
+#Updating YiiMP files for IdMineThat build
+echo -e " Adding the IdMineThat flare to YiiMP...$COL_RESET"
 
 sudo sed -i 's/YII MINING POOLS/'${DomainName}' Mining Pool/g' $STORAGE_ROOT/yiimp/site/web/yaamp/modules/site/index.php
 sudo sed -i 's/domain/'${DomainName}'/g' $STORAGE_ROOT/yiimp/site/web/yaamp/modules/site/index.php
