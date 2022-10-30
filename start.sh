@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-###########################################
-# Created by Dirty Harry for YiiMP use... #
-###########################################
+##########################################
+# Created by IdMineThat for YiiMP use... #
+##########################################
 
 source /etc/functions.sh
 source /etc/yiimpserver.conf
@@ -85,7 +85,7 @@ fi
 echo
 echo "-----------------------------------------------"
 echo
-echo Thank you for using the Dirty Harry YiiMP Server Installer!
+echo Thank you for using the IdMineThat YiiMP Server Installer!
 echo
 echo To run this installer anytime simply type, yiimpserver!
 echo
