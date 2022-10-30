@@ -6,7 +6,7 @@ source $STORAGE_ROOT/yiimp/.yiimp.conf
 
 ######################################################
 # Dedicated Port config generator                    #
-#                                                    #
+# Created by IdMineThat for yiimpserver              #
 # This generator will modify the main algo.conf file #
 # Create the new coin.algo.conf file                 #
 # And update the stratum start file                  #
