@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-###########################################
-# Created by Dirty Harry for YiiMP use... #
-###########################################
+##########################################
+# Created by IdMineThat for YiiMP use... #
+##########################################
 
 source $HOME/yiimpserver/yiimp_single/.wireguard.install.cnf
 source $STORAGE_ROOT/yiimp/.wireguard.conf
