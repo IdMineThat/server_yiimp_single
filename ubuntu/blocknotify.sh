@@ -1,5 +1,5 @@
 ###########################################
-# Created by Dirty Harry for YiiMP use... #
+# Created by IdMineThat for YiiMP use.... #
 ###########################################
 
 #!/bin/bash
